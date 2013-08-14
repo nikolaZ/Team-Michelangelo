@@ -1,0 +1,12 @@
+C:\Users\5750\Documents\Visual Studio 2012\Projects\WS-Team-Work\Chat.Repositories\obj\Debug\Chat.Repositories.csprojResolveAssemblyReference.cache
+C:\Users\5750\Documents\Visual Studio 2012\Projects\WS-Team-Work\Chat.Repositories\bin\Debug\Chat.Repositories.dll.config
+C:\Users\5750\Documents\Visual Studio 2012\Projects\WS-Team-Work\Chat.Repositories\bin\Debug\Chat.Repositories.dll
+C:\Users\5750\Documents\Visual Studio 2012\Projects\WS-Team-Work\Chat.Repositories\bin\Debug\Chat.Repositories.pdb
+C:\Users\5750\Documents\Visual Studio 2012\Projects\WS-Team-Work\Chat.Repositories\bin\Debug\Chat.Data.dll
+C:\Users\5750\Documents\Visual Studio 2012\Projects\WS-Team-Work\Chat.Repositories\bin\Debug\Chat.Models.dll
+C:\Users\5750\Documents\Visual Studio 2012\Projects\WS-Team-Work\Chat.Repositories\bin\Debug\EntityFramework.dll
+C:\Users\5750\Documents\Visual Studio 2012\Projects\WS-Team-Work\Chat.Repositories\bin\Debug\Chat.Data.pdb
+C:\Users\5750\Documents\Visual Studio 2012\Projects\WS-Team-Work\Chat.Repositories\bin\Debug\Chat.Models.pdb
+C:\Users\5750\Documents\Visual Studio 2012\Projects\WS-Team-Work\Chat.Repositories\bin\Debug\EntityFramework.xml
+C:\Users\5750\Documents\Visual Studio 2012\Projects\WS-Team-Work\Chat.Repositories\obj\Debug\Chat.Repositories.dll
+C:\Users\5750\Documents\Visual Studio 2012\Projects\WS-Team-Work\Chat.Repositories\obj\Debug\Chat.Repositories.pdb

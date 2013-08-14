@@ -1,0 +1,5 @@
+c:\users\5750\documents\visual studio 2012\Projects\WS-Team-Work\Chat.Models\bin\Debug\Chat.Models.dll
+c:\users\5750\documents\visual studio 2012\Projects\WS-Team-Work\Chat.Models\bin\Debug\Chat.Models.pdb
+c:\users\5750\documents\visual studio 2012\Projects\WS-Team-Work\Chat.Models\obj\Debug\Chat.Models.csprojResolveAssemblyReference.cache
+c:\users\5750\documents\visual studio 2012\Projects\WS-Team-Work\Chat.Models\obj\Debug\Chat.Models.dll
+c:\users\5750\documents\visual studio 2012\Projects\WS-Team-Work\Chat.Models\obj\Debug\Chat.Models.pdb

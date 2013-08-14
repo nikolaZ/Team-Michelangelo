@@ -1,0 +1,10 @@
+c:\users\5750\documents\visual studio 2012\Projects\WS-Team-Work\Chat.Data\obj\Debug\Chat.Data.csprojResolveAssemblyReference.cache
+c:\users\5750\documents\visual studio 2012\Projects\WS-Team-Work\Chat.Data\bin\Debug\Chat.Data.dll.config
+c:\users\5750\documents\visual studio 2012\Projects\WS-Team-Work\Chat.Data\bin\Debug\Chat.Data.dll
+c:\users\5750\documents\visual studio 2012\Projects\WS-Team-Work\Chat.Data\bin\Debug\Chat.Data.pdb
+c:\users\5750\documents\visual studio 2012\Projects\WS-Team-Work\Chat.Data\bin\Debug\Chat.Models.dll
+c:\users\5750\documents\visual studio 2012\Projects\WS-Team-Work\Chat.Data\bin\Debug\EntityFramework.dll
+c:\users\5750\documents\visual studio 2012\Projects\WS-Team-Work\Chat.Data\bin\Debug\Chat.Models.pdb
+c:\users\5750\documents\visual studio 2012\Projects\WS-Team-Work\Chat.Data\bin\Debug\EntityFramework.xml
+c:\users\5750\documents\visual studio 2012\Projects\WS-Team-Work\Chat.Data\obj\Debug\Chat.Data.dll
+c:\users\5750\documents\visual studio 2012\Projects\WS-Team-Work\Chat.Data\obj\Debug\Chat.Data.pdb
