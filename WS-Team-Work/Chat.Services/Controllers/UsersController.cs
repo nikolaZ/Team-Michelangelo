@@ -13,18 +13,20 @@ namespace Chat.Services.Controllers
     public class UsersController : ApiController
     {
         private UserRepository repository;
+
         public UsersController(IRepository<User> repo)
         {
             this.repository = repo as UserRepository;
         }
 
-        // GET api/Users
-        public IEnumerable<UserModel> GetUsers()
+        [GET("api/users/{sessionKey}")]
+        public IEnumerable<UserModel> GetUsers(string sessionKey)
         {
             var users = this.repository.All();
 
             var userModels =
                                 from user in users
+                                where user.SessionKey != sessionKey
                                 select new UserModel()
                                 {
                                     Id = user.Id,
@@ -34,11 +36,17 @@ namespace Chat.Services.Controllers
             return userModels.ToList();
         }
 
+        [GET("api/users/logout/{sessionKey}")]
+        public HttpResponseMessage LogoutUser(string sessionKey)
+        {
+            this.repository.LogoutUser(sessionKey);
+
+            return Request.CreateResponse(HttpStatusCode.OK);
+        }
+
         [POST("api/users/login")]
         public HttpResponseMessage LoginUser(UserModelLogin user)
         {
-            string nickname = string.Empty;
-
             Chat.Models.User userFull = new Chat.Models.User()
             {
                 Username = user.Username,
@@ -54,7 +62,7 @@ namespace Chat.Services.Controllers
             };
 
 
-            return Request.CreateResponse(HttpStatusCode.OK, loggedUser.SessionKey);
+            return Request.CreateResponse(HttpStatusCode.OK, loggedUser);
         }
 
         [POST("api/users/register")]
@@ -65,6 +73,7 @@ namespace Chat.Services.Controllers
                 Username = user.Username,
                 Password = user.Password,
                 Nickname = user.Nickname
+                
             };
 
             var userReg = this.repository.Add(userFull);
@@ -76,15 +85,7 @@ namespace Chat.Services.Controllers
                 SessionKey = userLog.SessionKey
             };
 
-            return Request.CreateResponse(HttpStatusCode.OK, loggedUser.SessionKey);
-        }
-
-        [GET("api/users/logout")]
-        public HttpResponseMessage LogoutUser(string sessionKey)
-        {
-            this.repository.LogoutUser(sessionKey);
-
-            return Request.CreateResponse(HttpStatusCode.OK);
+            return Request.CreateResponse(HttpStatusCode.OK, loggedUser);
         }
 
         //// PUT api/Users/5

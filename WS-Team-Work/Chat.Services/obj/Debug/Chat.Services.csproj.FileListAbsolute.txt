@@ -72,3 +72,15 @@ c:\users\5750\documents\visual studio 2012\Projects\WS-Team-Work\Chat.Services\b
 c:\users\5750\documents\visual studio 2012\Projects\WS-Team-Work\Chat.Services\obj\Debug\Chat.Services.csprojResolveAssemblyReference.cache
 c:\users\5750\documents\visual studio 2012\Projects\WS-Team-Work\Chat.Services\obj\Debug\Chat.Services.dll
 c:\users\5750\documents\visual studio 2012\Projects\WS-Team-Work\Chat.Services\obj\Debug\Chat.Services.pdb
+C:\Users\5750\Documents\Visual Studio 2012\Projects\WS-Team-Work\Chat.Services\bin\AttributeRouting.dll
+C:\Users\5750\Documents\Visual Studio 2012\Projects\WS-Team-Work\Chat.Services\bin\AttributeRouting.Web.dll
+C:\Users\5750\Documents\Visual Studio 2012\Projects\WS-Team-Work\Chat.Services\bin\AttributeRouting.Web.Http.dll
+C:\Users\5750\Documents\Visual Studio 2012\Projects\WS-Team-Work\Chat.Services\bin\AttributeRouting.Web.Http.WebHost.dll
+C:\Users\5750\Documents\Visual Studio 2012\Projects\WS-Team-Work\Chat.Services\bin\Chat.Repositories.dll
+C:\Users\5750\Documents\Visual Studio 2012\Projects\WS-Team-Work\Chat.Services\bin\WebActivator.dll
+C:\Users\5750\Documents\Visual Studio 2012\Projects\WS-Team-Work\Chat.Services\bin\Chat.Repositories.pdb
+C:\Users\5750\Documents\Visual Studio 2012\Projects\WS-Team-Work\Chat.Services\bin\AttributeRouting.xml
+C:\Users\5750\Documents\Visual Studio 2012\Projects\WS-Team-Work\Chat.Services\bin\AttributeRouting.Web.xml
+C:\Users\5750\Documents\Visual Studio 2012\Projects\WS-Team-Work\Chat.Services\bin\AttributeRouting.Web.Http.xml
+C:\Users\5750\Documents\Visual Studio 2012\Projects\WS-Team-Work\Chat.Services\bin\AttributeRouting.Web.Http.WebHost.xml
+C:\Users\5750\Documents\Visual Studio 2012\Projects\WS-Team-Work\Chat.Services\bin\WebActivator.pdb
