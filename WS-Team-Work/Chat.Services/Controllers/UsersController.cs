@@ -36,6 +36,7 @@ namespace Chat.Services.Controllers
             return userModels.ToList();
         }
 
+        [HttpGet]
         [GET("api/users/logout/{sessionKey}")]
         public HttpResponseMessage LogoutUser(string sessionKey)
         {
